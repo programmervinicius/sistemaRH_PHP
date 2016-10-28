@@ -1,16 +1,17 @@
 <?php
-class Animal {
+class Funcionario {
   private $nome;
-  private $peso;
-  private $comidaPreferida;
-  public static $quantidadeAnimais = 0;
+  private $cpf;
+  private $dataNascimento;
+  private $gerente;
+  public static $quantidadeFuncionarios = 0;
 
   public function __construct(){
-    Animal::$quantidadeAnimais++;
+    Animal::$quantidadeFuncionarios++;
   }
 
   public function __destruct(){
-    echo $this->nome . "Foi destruído";
+    #echo $this->nome . "Foi destruído";
   }
 
   public function __get($atributo){
@@ -22,8 +23,8 @@ class Animal {
   }
 }
 
-$a = new Animal();
-$a->nome = "Lilica";
+$a = new Funcionario();
+$a->nome = "Lucio";
 $a->peso = 3;
 $a->comidaPreferida = "Qualquer coisa que de pra comer";
 
