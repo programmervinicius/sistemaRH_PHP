@@ -29,12 +29,14 @@ $conn = null;
      <title>Cadastrar Departamento</title>
    </head>
    <body>
-    <div class ="mdl-grid mdl-layout-spacer mdl-cell mdl-cell--4-col">
-     <form method="post">
-       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-         <input class="mdl-textfield__input" type="text" id="nome">
-         <label class="mdl-textfield__label" for="nome">Insira o nome do departamento</label>
-     </div>
+    <div class ="mdl-grid">
+      <div class = "mdl-layout mdl-layout-spacer mdl-cell mdl-cell--4-col mdl-cell--4-offset">
+        <form method="post">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="nome">
+            <label class="mdl-textfield__label" for="nome">Insira o nome do departamento</label>
+          </div>
+          <br>
       <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" name="instanciar">
         Cadastrar departamento
       </button>
