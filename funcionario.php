@@ -6,14 +6,14 @@ class Funcionario {
   private $dataNascimento;
   private $gerente;
   private $departamento;
+  private $salario;
   public static $quantidadeFuncionarios = 0;
 
   public function __construct(){
-    Animal::$quantidadeFuncionarios++;
+    Funcionario::$quantidadeFuncionarios++;
   }
 
   public function __destruct(){
-    #echo $this->nome . "Foi destruído";
   }
 
   public function __get($atributo){
@@ -25,9 +25,4 @@ class Funcionario {
   }
 }
 
-$a = new Funcionario();
-$a->nome = "Lucio";
-$a->departamento;
-
-echo $a->nome . " " . $a->peso . " " . $a->comidaPreferida;
 ?>
