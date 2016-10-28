@@ -5,7 +5,7 @@ class Animal {
   private $comidaPreferida;
   public static $quantidadeAnimais = 0;
 
-  public __construct(){
+  public function __construct(){
     Animal::$quantidadeAnimais++;
   }
 
