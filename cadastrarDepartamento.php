@@ -28,9 +28,44 @@ $conn = null;
      <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
      <title>Cadastrar Departamento</title>
    </head>
-   <body>
+   <body bgcolor="#B1AFA3">
+   <style>
+.demo-layout-transparent {
+background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: grey;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+<header class="mdl-layout__header mdl-layout__header--transparent">
+  <div class="mdl-layout__header-row">
+    <!-- Title -->
+    <span class="mdl-layout-title">Title</span>
+    <!-- Add spacer, to align navigation to the right -->
+    <div class="mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+</header>
+<div class="mdl-layout__drawer">
+  <span class="mdl-layout-title">Title</span>
+  <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="">Link</a>
+    <a class="mdl-navigation__link" href="">Link</a>
+  </nav>
+</div>
+<main class="mdl-layout__content">
+</main>
+</div>
+
     <div class ="mdl-grid">
-      <div class = "mdl-layout mdl-layout-spacer mdl-cell mdl-cell--4-col mdl-cell--4-offset">
+      <div class = "mdl-layout mdl-cell mdl-cell--4-col mdl-cell--4-offset">
         <form method="post">
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
             <input class="mdl-textfield__input" type="text" id="nome">
