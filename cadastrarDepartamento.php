@@ -65,7 +65,7 @@ background: url('../assets/demos/transparent.jpg') center / cover;
     <div class = "mdl-layout mdl-cell mdl-cell--4-col mdl-cell--4-offset">
       <form method="post">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" id="nome">
+          <input class="mdl-textfield__input" type="text" name="nome">
           <label class="mdl-textfield__label" for="nome">Insira o nome do departamento</label>
         </div>
         <br>
