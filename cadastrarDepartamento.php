@@ -48,8 +48,8 @@ background: url('../assets/demos/transparent.jpg') center / cover;
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation -->
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Página principal</a>
+      <a class="mdl-navigation__link" href="">Sair</a>
     </nav>
   </div>
 </header>
