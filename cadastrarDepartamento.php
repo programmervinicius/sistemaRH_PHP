@@ -54,15 +54,15 @@ background: url('../assets/demos/transparent.jpg') center / cover;
   </div>
 </header>
 <div class="mdl-layout__drawer">
-  <span class="mdl-layout-title">Title</span>
+  <span class="mdl-layout-title">Home</span>
   <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" href="">Link</a>
-    <a class="mdl-navigation__link" href="">Link</a>
+    <a class="mdl-navigation__link" href="">/*nome do usuário*/</a>
+    <a class="mdl-navigation__link" href="">Editar Perfil</a>
   </nav>
 </div>
 <main class="mdl-layout__content">
   <div class ="mdl-grid">
-    <div class = "mdl-layout mdl-cell mdl-cell--4-col mdl-cell--4-offset">
+    <div class = "mdl-cell mdl-cell--4-col mdl-cell--4-offset">
       <form method="post">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
           <input class="mdl-textfield__input" type="text" name="nome">
