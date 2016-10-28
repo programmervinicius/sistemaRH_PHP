@@ -7,7 +7,16 @@ if (isset ($_POST["instanciar"])){
   $d = new Departamento();
   $d->nome = $nome;
   echo $d->nome;
+try {
+  $sql = "INSERT INTO departamento (nome)
+    VALUES ('$d->nome')";
+    $conn->exec($sql);
+    echo "Departamento cadastrado no banco de dados";
+    } catch(PDOException $e){
+    echo $sql . "<br>" . $e->getMessage();
+    }
 }
+$conn = null;
 ?>
 
  <!DOCTYPE html>
