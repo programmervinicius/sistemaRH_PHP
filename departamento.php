@@ -4,7 +4,7 @@ class Departamento{
   public static $quantidadeDepartamentos = 0;
 
   public function __construct(){
-    Animal::$quantidadeDepartamentos++;
+    Departamento::$quantidadeDepartamentos++;
   }
 
   public function __destruct(){
@@ -19,9 +19,4 @@ class Departamento{
     $this->$nome = $valor;
   }
 }
-
-$a = new Departamento();
-$a->nome = "Vendas";
-
-echo $a->nome;
 ?>

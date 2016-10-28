@@ -1,8 +1,10 @@
 <?php
 require 'funcionario.php';
+
 if (isset($_POST['instanciar'])){
   $nome = $_POST["nome"];
   $cpf = $_POST["cpf"];
+
   $a = new Funcionario();
   $a->nome = $nome;
   $a->cpf = $cpf;
@@ -21,7 +23,7 @@ if (isset($_POST['instanciar'])){
   <form method="post">
     <input type="text" name="nome" placeholder="Insira o Nome:"><br>
     <input type="text" name="cpf" placeholder="Insira o CPF"><br>
-    <input type="submit" name="instanciar" value="instanciar">
+    <input type="submit" name="instanciar" value="Instanciar">
   </form>
   </body>
 </html>

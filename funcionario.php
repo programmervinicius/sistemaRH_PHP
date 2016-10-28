@@ -14,6 +14,7 @@ class Funcionario {
   }
 
   public function __destruct(){
+    #echo $this->nome . "Foi destruído";
   }
 
   public function __get($atributo){
