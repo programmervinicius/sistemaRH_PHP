@@ -1,5 +1,6 @@
 <?php
 require 'departamento.php';
+require 'conn.php';
 
 if (isset ($_POST["instanciar"])){
   $nome = $_POST["nome"];
