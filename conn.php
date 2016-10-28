@@ -1,13 +1,13 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "postgres";
 $password = "";
 
 try {
     $conn = new PDO("pgsql:host=$servername;dbname=bancoRH", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully";
+    echo "Sucesso na conexão";
     } catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
+    echo "ERRO: " . $e->getMessage();
     }
 ?>
