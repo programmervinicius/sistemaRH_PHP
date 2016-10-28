@@ -1,9 +1,11 @@
 <?php
+
 class Funcionario {
   private $nome;
   private $cpf;
   private $dataNascimento;
   private $gerente;
+  private $departamento;
   public static $quantidadeFuncionarios = 0;
 
   public function __construct(){
@@ -25,8 +27,7 @@ class Funcionario {
 
 $a = new Funcionario();
 $a->nome = "Lucio";
-$a->peso = 3;
-$a->comidaPreferida = "Qualquer coisa que de pra comer";
+$a->departamento;
 
 echo $a->nome . " " . $a->peso . " " . $a->comidaPreferida;
 ?>
