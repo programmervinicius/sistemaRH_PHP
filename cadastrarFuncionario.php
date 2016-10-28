@@ -1,5 +1,6 @@
 <?php
 require 'funcionario.php';
+require 'departamento.php';
 
 if (isset($_POST['instanciar'])){
   $nome = $_POST["nome"];
@@ -24,6 +25,7 @@ if (isset($_POST['instanciar'])){
     <input type="text" name="nome" placeholder="Insira o Nome:"><br>
     <input type="text" name="cpf" placeholder="Insira o CPF"><br>
     <input type="submit" name="instanciar" value="Instanciar">
+    <input type="option" name="name" value="dsa">    
   </form>
   </body>
 </html>

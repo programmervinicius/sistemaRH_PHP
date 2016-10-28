@@ -7,12 +7,7 @@ if (isset ($_POST["instanciar"])){
   $d->nome = $nome;
   echo $d->nome;
 }
-
-
-
-
-
- ?>
+?>
 
  <!DOCTYPE html>
  <html>
@@ -21,7 +16,9 @@ if (isset ($_POST["instanciar"])){
      <title></title>
    </head>
    <body>
-     <input type="text" name="nome" placeholder="Insira o nome do departamento:">
-     <input type="submit" name="instanciar" value="Instanciar Depto.">
+     <form method="post">
+       <input type="text" name="nome" placeholder="Insira o nome do departamento:">
+       <input type="submit" name="instanciar" value="Instanciar Depto.">
+    </form>
    </body>
  </html>
