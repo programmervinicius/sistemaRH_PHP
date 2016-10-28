@@ -8,6 +8,6 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Sucesso na conexão";
     } catch(PDOException $e) {
-    echo "ERRO: " . $e->getMessage();
+    //echo "ERRO: " . $e->getMessage();
     }
 ?>
